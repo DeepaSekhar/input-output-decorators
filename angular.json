@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "input-output-decorator"
+    }
+  },
+  "defaultProject": "input-output-decorator",
+  "cli": {
+    "analytics": false
+  }
 }
