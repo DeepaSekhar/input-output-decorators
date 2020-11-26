@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'input-output-decorator';
+  public name = "deepa"
 }
