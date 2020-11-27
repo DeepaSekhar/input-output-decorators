@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.child {
+  background-color: rgb(233, 155, 10);
+  height: 300px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid grey;
+  box-shadow: 5px 10px;
+}

@@ -1,2 +1,7 @@
-<h1>app component</h1>
-<app-test [parentData]="name"></app-test>
+<div class="container">
+<div class="parent">
+<h1>Parent Portal</h1>
+<h3>{{message}}</h3>
+</div>
+</div>
+<app-test (childEvent)="message=$event"  [parentData]="name"></app-test>

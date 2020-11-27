@@ -24,7 +24,7 @@ export class TestComponent implements OnInit {
   ngOnInit(): void {
   }
   fireEvent() {
-    this.childEvent.emit('Hey Holition')
+    this.childEvent.emit('Hello Mum love from Devna')
   }
 
 }
